@@ -36,7 +36,7 @@ Invoke-Checked git @('add', 'index.html', 'styles.css', 'app.js', 'data.js', 'me
 if ($LASTEXITCODE -eq 1) {
     Invoke-Checked git @('-c', 'user.name=PavelDykhne', '-c', 'user.email=13303506+PavelDykhne@users.noreply.github.com', 'commit', '-m', 'Add stamp collection catalog')
 } elseif ($LASTEXITCODE -ne 0) { throw 'Cannot inspect staged changes.' }
-Invoke-Checked git @('-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential', 'push', '-u', 'origin', 'main')
+Invoke-Checked git @('-c', 'http.sslBackend=openssl', '-c', 'credential.helper=', '-c', 'credential.helper=!gh auth git-credential', 'push', '-u', 'origin', 'main')
 
 $ErrorActionPreference = 'Continue'
 & gh api "repos/$repository/pages" *> $null
