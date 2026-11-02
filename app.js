@@ -25,10 +25,7 @@ function renderAlbum(album) {
   const rows = album.pages.flatMap(page => page.rows), total = sum(rows);
   $('album-title').textContent = album.title;
   $('album-subtitle').textContent = album.subtitle;
-  const duplicates = album.duplicatePhotos || [];
-  $('page-count').textContent = `${album.pages.length} страниц · ${album.pages.length + duplicates.length} фото`;
-  $('duplicate-note').hidden = duplicates.length === 0;
-  $('duplicate-note').innerHTML = duplicates.map(photo => `Повторный файл <a href="${esc(photo.image)}" target="_blank" rel="noopener noreferrer">${esc(photo.name)}</a> совпадает с ${esc(photo.original)}. Учтён один раз; повтор не увеличивает количество марок и стоимость.`).join('<br>');
+  $('page-count').textContent = `${album.pages.length} страниц · ${album.pages.length} фото`;
   $('stats').innerHTML = [
     ['Обработано страниц', `${album.pages.length}`, ''],
     ['Марок на фотографиях', `${rows.length}`, `${new Set(rows.map(row => row[3])).size} разных`],
