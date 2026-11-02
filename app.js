@@ -4,7 +4,7 @@ const $ = id => document.getElementById(id);
 const esc = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const money = (min, max) => `${min.toLocaleString('ru-RU')}–${max.toLocaleString('ru-RU')} ₽`;
 const sum = rows => rows.reduce((total, row) => [total[0] + row[5], total[1] + row[6]], [0, 0]);
-const source = number => `https://rusphil.com/stamprus/marks/1961/#:~:text=${encodeURIComponent(number)}`;
+const source = number => `https://rusphil.com/stamprus/marks/1961/#:~:text=${encodeURIComponent(number.split('/')[0].trim())}`;
 let activeAlbum = collection.albums[0];
 $('updated').textContent = `Обновлено ${collection.updated}`;
 $('album-select').innerHTML = collection.albums.map(album => `<option value="${esc(album.id)}">${esc(album.title)}</option>`).join('');
@@ -13,7 +13,10 @@ function renderAlbum(album) {
   const rows = album.pages.flatMap(page => page.rows), total = sum(rows);
   $('album-title').textContent = album.title;
   $('album-subtitle').textContent = album.subtitle;
-  $('page-count').textContent = `${album.pages.length} фото`;
+  const duplicates = album.duplicatePhotos || [];
+  $('page-count').textContent = `${album.pages.length} страниц · ${album.pages.length + duplicates.length} фото`;
+  $('duplicate-note').hidden = duplicates.length === 0;
+  $('duplicate-note').innerHTML = duplicates.map(photo => `Повторный файл <a href="${esc(photo.image)}" target="_blank" rel="noopener noreferrer">${esc(photo.name)}</a> совпадает с ${esc(photo.original)}. Учтён один раз; повтор не увеличивает количество марок и стоимость.`).join('<br>');
   $('stats').innerHTML = [
     ['Обработано страниц', `${album.pages.length}`, ''],
     ['Марок на фотографиях', `${rows.length}`, `${new Set(rows.map(row => row[3])).size} разных`],
