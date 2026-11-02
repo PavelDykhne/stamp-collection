@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Каталог семейной коллекции марок СССР: оригиналы страниц, распознавание и предварительная оценка.">
+  <meta name="theme-color" content="#24483f">
+  <title>Марки — каталог коллекции</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">М</span> Личный каталог <span class="brand-muted">/ Филателия</span></a><span class="top-note">Рабочая оценка коллекции</span></header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">КОЛЛЕКЦИЯ ПОЧТОВЫХ МАРОК</p><h1>История в деталях.</h1><p class="lead">Исходные фотографии, определение выпусков<br class="desktop"> и оценка каждой страницы альбома.</p></div>
+      <div class="edition"><span>СССР</span><strong>1961—1985</strong><small id="updated"></small></div>
+    </section>
+    <section class="stats" aria-label="Сводка коллекции" id="stats"></section>
+    <div class="workspace">
+      <aside class="sidebar">
+        <label class="eyebrow" for="album-select">АЛЬБОМ</label><select id="album-select"></select>
+        <nav id="page-nav" aria-label="Страницы альбома"></nav>
+        <div class="side-note"><span class="dot"></span> Каталог пополняется<p>Сейчас показаны только обработанные фотографии. Новые страницы добавляются по мере распознавания.</p></div>
+        <button class="export" id="export" type="button">↓ Скачать таблицу CSV</button>
+      </aside>
+      <div class="content"><div class="album-heading"><div><p class="eyebrow" id="album-subtitle"></p><h2 id="album-title"></h2></div><span class="pill" id="page-count"></span></div><div id="pages"></div>
+        <section class="method"><p class="eyebrow">КАК ЧИТАТЬ ОЦЕНКУ</p><h2>Цена зависит от состояния.</h2><p>Диапазоны — предварительная оценка по каталогам и предложениям продавцов. Подтверждённых завершённых сделок для этих экземпляров нет. Доставка и комиссии не включены.</p><p>¹ Верхняя граница для негашёной марки предполагает целый оригинальный клей без наклеек и скрытых дефектов. ² Марка с комбайном условно оценена как гашёная. Уверенность в определении выпуска не означает подтверждение разновидности или подлинности.</p><p>Итоги страниц автоматически складывают диапазоны строк. Это уточняет арифметику первоначальной оценки в переписке. Цена продажи альбомом оценивается отдельно; итог относится только к показанным страницам.</p><div class="sources"><a href="https://rusphil.com/stamprus/marks/1961/" target="_blank" rel="noopener noreferrer">RusPhil · каталог 1961 ↗</a><a href="https://stamps.ru/catalog/xxii-sezd-kpss" target="_blank" rel="noopener noreferrer">Stamps.ru · серия съезда ↗</a><a href="https://meshok.net/listing?search=1961+%D0%93%D0%9E%D0%AD%D0%9B%D0%A0%D0%9E" target="_blank" rel="noopener noreferrer">Мешок · предложения ↗</a></div></section>
+      </div>
+    </div>
+  </main>
+  <footer><span>Марки / Личный каталог</span><span>Фотографии сохранены в исходном виде.</span></footer>
+  <dialog id="viewer"><div class="viewer-bar"><span id="viewer-title"></span><button type="button" id="close-viewer" aria-label="Закрыть фотографию">Закрыть ×</button></div><div class="viewer-scroll"><img id="viewer-image" alt=""></div><a id="original-link" target="_blank" rel="noopener">Открыть оригинал в новой вкладке ↗</a></dialog>
+  <noscript><p>Для просмотра таблиц включите JavaScript. Оригинальные фотографии находятся в папке media.</p></noscript>
+</body>
+</html>
