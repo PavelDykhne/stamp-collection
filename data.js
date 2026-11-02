@@ -1089,6 +1089,1022 @@ window.COLLECTION = {
           ]
         }
       ]
+    },
+    {
+      "id": "foreign",
+      "title": "Иностранные марки",
+      "subtitle": "Китай · Япония · КНДР · 3 фотографии",
+      "period": "1949—1960-е",
+      "countries": "Китай · Япония · КНДР",
+      "catalogue": {
+        "name": "Scott 2013 + StampWorld",
+        "priceLabel": "Каталог",
+        "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf",
+        "edition": 2013,
+        "checked": "2026-11-02",
+        "currency": "USD",
+        "numberLabel": "Каталог / №",
+        "mintLabel": "Unused",
+        "usedLabel": "Used"
+      },
+      "pages": [
+        {
+          "id": "page-01",
+          "title": "Китай · Ленин, гербы и золотые рыбки",
+          "year": "1949–1960",
+          "image": "media/foreign/photo_2026-11-02_12-05-45.jpg",
+          "rows": [
+            [
+              "Верхний ряд · слева",
+              "КНР · 1960 · C77 · 90-летие Ленина · портрет",
+              "8 фэнь",
+              "500",
+              "Гашёная",
+              3.5,
+              3.5,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 45,
+                "used": 3.5,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1173"
+              }
+            ],
+            [
+              "Верхний ряд · второй слева",
+              "КНР · 1960 · C77 · Ленин с красногвардейцами",
+              "20 фэнь · низ закрыт",
+              "501",
+              "Гашение не видно; низ перекрыт",
+              3.5,
+              45,
+              "check",
+              {
+                "basis": "uncertain",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 45,
+                "used": 3.5,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1173"
+              }
+            ],
+            [
+              "Верхний ряд · третий слева",
+              "КНР · 1960 · C77 · Ленин выступает",
+              "4 фэнь",
+              "499",
+              "Без видимого гашения; оборот не осмотрен",
+              1.4,
+              35,
+              "high",
+              {
+                "basis": "uncertain",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 35,
+                "used": 1.4,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1173"
+              }
+            ],
+            [
+              "Вверху справа · за Мао",
+              "Марка с зелёной рамкой · почти полностью закрыта",
+              "Номинал закрыт",
+              "Не определена",
+              "Большая часть рисунка перекрыта",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://colnect.com/ru/stamps",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужна фотография целиком.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Вверху справа · портрет Мао",
+              "КНР · 1951 · C9 · 30-летие Компартии Китая",
+              "Предположительно 400 юаней",
+              "105? / C9",
+              "Номинал закрыт; коричневый портрет",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=4",
+                "mint": 12,
+                "used": 7,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1051"
+              }
+            ],
+            [
+              "Под Лениным · слева",
+              "КНР · 1959 · C70 · Танец дракона · 10-летие КНР",
+              "8 фэнь",
+              "453",
+              "Гашёная",
+              1.75,
+              1.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=10",
+                "mint": 19,
+                "used": 1.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1162"
+              }
+            ],
+            [
+              "Вверху в центре · штангист",
+              "КНР · 1957 · C39 · Спартакиада рабочих · тяжёлая атлетика",
+              "4 фэнь",
+              "307",
+              "Гашёная",
+              0.4,
+              0.4,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=8",
+                "mint": 2.75,
+                "used": 0.4,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Правая колонка · синий герб",
+              "КНР · 1951 · S1 · Государственный герб",
+              "100 юаней · низ закрыт",
+              "117? / S1",
+              "Гашёная; низ закрыт",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=4",
+                "mint": 12,
+                "used": 7,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1055"
+              }
+            ],
+            [
+              "Правая колонка · красно-золотой герб",
+              "КНР · 1959 · C68 · 10-летие КНР · Государственный герб",
+              "Номинал перекрыт",
+              "441–444 / C68",
+              "Видно гашение; номинал закрыт",
+              5.75,
+              5.75,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=10",
+                "mint": 23.5,
+                "used": 5.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1160",
+                "detail": "У четырёх номиналов этой серии в Scott 2013 одинаковая цена: 23,50 / 5,75 USD."
+              }
+            ],
+            [
+              "Правая колонка · белый голубь",
+              "КНР · 1950 · C5 · Кампания защиты мира",
+              "Предположительно 2000 юаней",
+              "59? / C5",
+              "Гашёная; номинал закрыт",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=3",
+                "mint": 45,
+                "used": 11,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Правая колонка · красный флаг",
+              "КНР · 1950 · C6 · Первая годовщина КНР",
+              "Номинал перекрыт",
+              "C6 / 60–64",
+              "Низ рисунка и номинал перекрыты",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=3",
+                "mint": null,
+                "used": null,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1032"
+              }
+            ],
+            [
+              "Справа внизу · здание и герб",
+              "Северо-Восточный Китай · 1950 · C2NE · НПКСК",
+              "5000 юаней",
+              "C2NE · 4-1 (5)",
+              "Гашёная; есть пятна",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://westnab.com/MaxStamps/index.php?area=117",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужно отличить оригинал от переиздания; подтверждённая цена этого экземпляра не установлена.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Рыбки · ряд 1 слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Небесное око",
+              "8 фэнь",
+              "512",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 100,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 1 справа",
+              "КНР · 1960 · S38 «Золотые рыбки» · Фиолетовая оранда",
+              "8 фэнь",
+              "514",
+              "Гашёная",
+              12,
+              12,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 120,
+                "used": 12,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 2 слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Красный телескоп",
+              "8 фэнь",
+              "517",
+              "Гашёная",
+              15,
+              15,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 120,
+                "used": 15,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 2 справа",
+              "КНР · 1960 · S38 «Золотые рыбки» · Белая рыбка · Nostril Bouquet",
+              "4 фэнь",
+              "506",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 67.5,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 3 слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Чёрный телескоп",
+              "8 фэнь",
+              "511",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 100,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 3 справа",
+              "КНР · 1960 · S38 «Золотые рыбки» · Черноспинный телескоп",
+              "4 фэнь",
+              "507",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 67.5,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 4 слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Пузыреглаз",
+              "4 фэнь",
+              "508",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 70,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 4 справа",
+              "КНР · 1960 · S38 «Золотые рыбки» · Красная оранда",
+              "8 фэнь",
+              "513",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 70,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 5 слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Жемчужинка",
+              "8 фэнь",
+              "510",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 100,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Рыбки · ряд 5 справа",
+              "КНР · 1960 · S38 «Золотые рыбки» · Красная шапочка",
+              "8 фэнь",
+              "515",
+              "Гашёная",
+              12,
+              12,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 120,
+                "used": 12,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ]
+          ],
+          "note": "Здесь 10 марок серии S38 «Золотые рыбки»; ещё две — на следующей странице. В итоге сложены только подтверждённые цены отдельных марок Scott 2013. Для Ленина без явного гашения дан диапазон Used–Unused. Цены оригиналов ранних выпусков с возможным переизданием приведены справочно, без включения в итог.",
+          "followup": "Уточнить: зелёную марку за Мао и закрытые номиналы в правой колонке; для выпусков 1949–1951 годов — оригинал или переиздание, бумагу, зубцовку и оборот."
+        },
+        {
+          "id": "page-02",
+          "title": "Китай · свиноводство и промышленность; Япония и КНДР",
+          "year": "1949–1962",
+          "image": "media/foreign/photo_2026-11-02_12-06-07.jpg",
+          "rows": [
+            [
+              "Вверху слева",
+              "КНР · 1960 · S38 «Золотые рыбки» · Красно-белый телескоп",
+              "8 фэнь",
+              "516",
+              "Гашёная",
+              15,
+              15,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 120,
+                "used": 15,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Вверху в центре",
+              "КНР · 1960 · S38 «Золотые рыбки» · Красная львиная головка",
+              "4 фэнь",
+              "509",
+              "Гашёная",
+              7.25,
+              7.25,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 70,
+                "used": 7.25,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1176",
+                "mintLabel": "Unused · без клея"
+              }
+            ],
+            [
+              "Свиньи · ряд 1 слева",
+              "КНР · 1960 · S40 «Свиноводство» · Откорм свиней",
+              "8 фэнь",
+              "520",
+              "Гашёная",
+              5.75,
+              5.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 77.5,
+                "used": 5.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1177"
+              }
+            ],
+            [
+              "Свиньи · ряд 1 справа",
+              "КНР · 1960 · S40 «Свиноводство» · Механизированное кормление",
+              "8 фэнь",
+              "521",
+              "Гашёная",
+              5.75,
+              5.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 77.5,
+                "used": 5.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1177"
+              }
+            ],
+            [
+              "Свиньи · ряд 2 слева",
+              "КНР · 1960 · S40 «Свиноводство» · Свиноматка с поросятами",
+              "8 фэнь",
+              "518",
+              "Гашёная",
+              5.75,
+              5.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 77.5,
+                "used": 5.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1177"
+              }
+            ],
+            [
+              "Свиньи · ряд 2 справа",
+              "КНР · 1960 · S40 «Свиноводство» · Вакцинация",
+              "8 фэнь",
+              "519",
+              "Гашёная",
+              5.75,
+              5.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 77.5,
+                "used": 5.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1177"
+              }
+            ],
+            [
+              "Свиньи · нижняя слева",
+              "КНР · 1960 · S40 «Свиноводство» · Свинья и тюки корма",
+              "8 фэнь",
+              "522",
+              "Гашёная",
+              20,
+              20,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=11",
+                "mint": 90,
+                "used": 20,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1177"
+              }
+            ],
+            [
+              "Правая колонка · в самом верху",
+              "Дети на фоне роз · страна и выпуск требуют уточнения",
+              "Номинал закрыт",
+              "Не определена",
+              "Гашёная; нижняя часть закрыта",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://colnect.com/ru/stamps",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужно фото марки целиком: надпись страны и номинал закрыты соседней маркой.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Правая колонка · завод, верхняя",
+              "КНР · 1954 · S10 · Завод бесшовных стальных труб",
+              "400 юаней",
+              "229",
+              "Гашение неясно; есть перекрытие",
+              0.6,
+              3.25,
+              "check",
+              {
+                "basis": "uncertain",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=6",
+                "mint": 3.25,
+                "used": 0.6,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1088&vars=TRUE"
+              }
+            ],
+            [
+              "Правая колонка · завод, нижняя",
+              "КНР · 1954 · S10 · Завод бесшовных стальных труб",
+              "400 юаней",
+              "229",
+              "Гашёная · повтор",
+              0.6,
+              0.6,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=6",
+                "mint": 3.25,
+                "used": 0.6,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1088&vars=TRUE"
+              }
+            ],
+            [
+              "Справа · красная, 1917–1957",
+              "КНР · 1957 · C44 · 40-летие Октябрьской революции",
+              "4 фэнь",
+              "321",
+              "Гашёная",
+              0.75,
+              0.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=8",
+                "mint": 16,
+                "used": 0.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1117"
+              }
+            ],
+            [
+              "Правая колонка · рука и глобус",
+              "КНР · 1949 · C3 · Профсоюзная конференция Азии и Австралазии",
+              "100 юаней",
+              "5",
+              "Гашёная",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=2",
+                "mint": 22.5,
+                "used": 9.5,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1016"
+              }
+            ],
+            [
+              "В центре · 1851–1951",
+              "КНР · 1951 · C12 · 100-летие Тайпинского восстания",
+              "800 юаней",
+              "125",
+              "Гашёная",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=4",
+                "mint": 15,
+                "used": 7.75,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1059"
+              }
+            ],
+            [
+              "Слева под свиньями · колонна бойцов",
+              "КНР · 1952 · C19 · Китайские народные добровольцы в Корее",
+              "800 юаней",
+              "171",
+              "Гашёная; рисунок частично перекрыт",
+              0.4,
+              0.4,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=5",
+                "mint": 2.75,
+                "used": 0.4,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "В центре · опора ЛЭП",
+              "КНР · 1955 · S13 · Первая пятилетка · высоковольтная линия",
+              "8 фэнь",
+              "250",
+              "Гашёная",
+              0.85,
+              0.85,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=7",
+                "mint": 3.5,
+                "used": 0.85,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Слева внизу · реактор",
+              "КНР · 1958 · S28 · Первый атомный реактор Китая",
+              "8 фэнь",
+              "392",
+              "Гашёная",
+              1.75,
+              1.75,
+              "high",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=9",
+                "mint": 16,
+                "used": 1.75,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1143"
+              }
+            ],
+            [
+              "В центре внизу · оранжевая",
+              "Северо-Восточный Китай · 1950 · C7NE · Первый почтовый съезд",
+              "2500 юаней",
+              "C7NE · 2-1 (49)",
+              "Без отчётливого гашения",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://westnab.com/MaxStamps/index.php?area=117",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужно определить оригинал или переиздание; цена конкретного варианта пока не подтверждена.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Справа внизу · 1912–1962",
+              "КНДР · 1962 · 50-летие Ким Ир Сена · юный Ким Ир Сен в горах",
+              "10 чон",
+              "Выпуск 1962 · № уточнить",
+              "Гашёная",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://sites.google.com/view/northnkaal/other-materials/postal-stamps/years-1960-1969",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Сюжет и юбилей определены; каталожный номер и цена гашёного экземпляра пока не подтверждены.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Самый нижний ряд · слева, повёрнута",
+              "Япония · Бодхисаттва Мироку · стандартный выпуск",
+              "50 иен",
+              "Тип «Мироку» · выпуск уточнить",
+              "Гашёная; марка повёрнута",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.stampworld.com/stamps/Japan/Postage%20stamps/",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "У рисунка несколько выпусков; для выбора номера нужны бумага, водяной знак и зубцовка.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Самый нижний ряд · вторая слева",
+              "Япония · Ворота Ёмэймон, Никко · стандартный выпуск",
+              "40 иен",
+              "749? · вариант уточнить",
+              "Гашение не видно",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.stampworld.com/stamps/Japan/Postage%20stamps/",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужна проверка выпуска и состояния оборота; каталожная цена этого варианта не подтверждена.",
+                "identityUrl": ""
+              }
+            ],
+            [
+              "Самый нижний ряд · синяя, 8000",
+              "КНР · Ворота Тяньаньмэнь · стандартный выпуск",
+              "8000 юаней",
+              "19? / R1 · вариант уточнить",
+              "Гашение неясно; мелкие детали недостаточно видны",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=2",
+                "mint": 1.75,
+                "used": 2,
+                "referenceOnly": true,
+                "reason": "Нужно проверить тип рамки и рисунок облаков, бумагу и зубцовку; цена № 19 — только справочная.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1044"
+              }
+            ],
+            [
+              "Самый нижний ряд · справа, гусь",
+              "КНР · Надпечатка на авиапочтовой марке Китая · летящий гусь",
+              "10 центов; надпечатка не читается",
+              "49? · номинал уточнить",
+              "Гашёная; надпечатка частично закрыта",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=2",
+                "mint": 0.3,
+                "used": 0.45,
+                "referenceOnly": true,
+                "reason": "Нужно прочитать красную надпечатку. Цена Scott 49 приведена лишь для возможного варианта.",
+                "identityUrl": ""
+              }
+            ]
+          ],
+          "note": "Вместе с первой страницей представлены все 12 рисунков S38 «Золотые рыбки» и все 5 марок S40 «Свиноводство». Серии дополнительно к отдельным маркам не прибавляются. Две марки завода учтены как два экземпляра; у верхней состояние неясно. Неоценённые марки не входят в сумму.",
+          "followup": "Уточнить: марку с детьми целиком, нижние четыре марки крупно, типы ранних китайских выпусков. Для японских стандартов нужны оборот, водяной знак и зубцовка."
+        },
+        {
+          "id": "page-03",
+          "title": "Гимнастика, тоннель Хокурику и лилия",
+          "year": "1952–1960-е",
+          "image": "media/foreign/photo_2026-11-02_12-06-12.jpg",
+          "rows": [
+            [
+              "Верхний ряд · первая слева",
+              "КНР · 1952 · S4 «Гимнастика» · подъём колена, руки в стороны",
+              "400 юаней",
+              "149c? / S4 · 40-35",
+              "Гашёная",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=5",
+                "mint": 15,
+                "used": 5,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1068"
+              }
+            ],
+            [
+              "Верхний ряд · вторая слева",
+              "КНР · 1952 · S4 «Гимнастика» · подъём колена, руки в стороны",
+              "400 юаней",
+              "149c? / S4 · 40-35",
+              "Гашёная · повтор",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=5",
+                "mint": 15,
+                "used": 5,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1068"
+              }
+            ],
+            [
+              "Верхний ряд · третья слева",
+              "КНР · 1952 · S4 «Гимнастика» · руки перед корпусом",
+              "400 юаней",
+              "149d? / S4 · 40-36",
+              "Гашёная",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=5",
+                "mint": 15,
+                "used": 5,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1068"
+              }
+            ],
+            [
+              "Верхний ряд · четвёртая слева",
+              "КНР · 1952 · S4 «Гимнастика» · руки перед корпусом",
+              "400 юаней",
+              "149d? / S4 · 40-36",
+              "Гашёная · повтор",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://www.ibchen.com/stamps/China%20Stamp%20Scott%20Catalogue2013.pdf#page=5",
+                "mint": 15,
+                "used": 5,
+                "referenceOnly": true,
+                "reason": "Оригинал или переиздание 1955 года: по фото не установлено. Цена оригинала приведена только для справки и не включена в итог.",
+                "identityUrl": "https://westnab.com/MaxStamps/viewSetplus1a.php?set=1068"
+              }
+            ],
+            [
+              "Слева под гимнастами",
+              "Япония · 1962 · Открытие тоннеля Хокурику",
+              "10 иен",
+              "SW 786 / Scott 761",
+              "Без отчётливого гашения; оборот не осмотрен",
+              0.59,
+              2.93,
+              "high",
+              {
+                "basis": "uncertain",
+                "url": "https://www.stampworld.com/is/stamps/Japan/Postage%20stamps/1960-1969?page=2#:~:text=786",
+                "mint": 2.93,
+                "used": 0.59,
+                "referenceOnly": false,
+                "reason": "",
+                "identityUrl": "",
+                "sourceName": "StampWorld",
+                "mintLabel": "MNH",
+                "detail": "StampWorld: MNH 2,93 USD; Used 0,59 USD. Номера StampWorld и Scott различаются; это одна марка."
+              }
+            ],
+            [
+              "Справа · жёлтые цветы",
+              "КНДР · Лилия · выпуск требует уточнения",
+              "90 чон · требует проверки",
+              "Выпуск уточнить",
+              "Без видимого гашения; оборот не осмотрен",
+              null,
+              null,
+              "check",
+              {
+                "basis": "used",
+                "url": "https://sites.google.com/view/northnkaal/other-materials/postal-stamps/years-1960-1969",
+                "mint": null,
+                "used": null,
+                "referenceOnly": false,
+                "reason": "Нужны год и номер выпуска; цена не подтверждена.",
+                "identityUrl": ""
+              }
+            ]
+          ],
+          "note": "В частичном итоге — только японская марка «Тоннель Хокурику» по StampWorld, состояние Used–MNH пока не уточнено. Четыре китайские марки — два рисунка по два экземпляра из S4 «Гимнастика». Оригиналы и переиздания имеют разные цены; цену оригинала нельзя присвоить этим экземплярам без проверки. Для корейской лилии цена не установлена.",
+          "followup": "Уточнить: китайские марки с обеих сторон и надписи под рисунками крупно; корейскую цветочную марку без бликов, с читаемым номиналом и надписями; оборот японской марки."
+        }
+      ]
     }
   ],
   "catalogue": {
@@ -1350,5 +2366,23 @@ window.COLLECTION = {
         10
       ]
     }
-  }
+  },
+  "accessories": [
+    {
+      "title": "Кляссер б/у",
+      "description": "16 страниц · 210 × 160 мм",
+      "min": 100,
+      "max": 300,
+      "currency": "RUB",
+      "checked": "2026-11-02",
+      "note": "Предварительный ориентир для одного кляссера без марок при целых кармашках и переплёте. Диапазон 100–300 ₽ — наша приблизительная оценка по близкому аналогу, а не цена из каталога. Точного совпадения и подтверждённой завершённой продажи не найдено. Доставка не включена; в каталожную сумму марок кляссер не прибавляется.",
+      "sources": [
+        {
+          "name": "Мешок · б/у, 8 листов, 16 × 22 см",
+          "url": "https://meshok.net/item/366559235",
+          "note": "Близкий размер: 16 страниц. В доступных срезах торгов ставки 27–140 ₽; окончательная цена продажи не подтверждена."
+        }
+      ]
+    }
+  ]
 };
