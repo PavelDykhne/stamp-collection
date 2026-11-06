@@ -39,7 +39,6 @@ function renderRow(row,album) {
 }
 let activeAlbum = collection.albums[0];
 const originalUssrMethod = $('method-ussr').innerHTML;
-$('updated').textContent = `Обновлено ${collection.updated}`;
 $('album-select').innerHTML = collection.albums.map(album=>`<option value="${esc(album.id)}">${esc(album.title)}</option>`).join('');
 $('accessory').innerHTML = (collection.accessories||[]).map(item=>`<div class="accessory-heading"><div><p class="eyebrow">СТОИМОСТЬ ХРАНЕНИЯ · ОТДЕЛЬНО ОТ МАРОК</p><h2>${esc(item.title)}</h2><span>${esc(item.description)}</span></div><div class="accessory-value"><strong>${money(item.min,item.max,item.currency)}</strong><small>Предварительный ориентир</small></div></div><p>${esc(item.note)}</p>${item.sources.map(s=>`<p class="accessory-source"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a> · ${esc(s.note)}</p>`).join('')}`).join('');
 function renderAlbum(album) {
@@ -50,8 +49,6 @@ function renderAlbum(album) {
   $('album-subtitle').textContent = album.subtitle;
   const pageWord = {one:'страница',few:'страницы',many:'страниц',other:'страницы'}[new Intl.PluralRules('ru-RU').select(album.pages.length)];
   $('page-count').textContent = `${album.pages.length} ${pageWord} · ${album.photoCount||album.pages.length} фото`;
-  $('edition-countries').textContent = album.countries||'СССР';
-  $('edition-period').textContent = album.period||'1961—1985';
   $('top-source').textContent = `Каталожная оценка · ${cat.name}`;
   $('stats').innerHTML = [
     ['Обработано страниц',`${album.pages.length}`,''],
