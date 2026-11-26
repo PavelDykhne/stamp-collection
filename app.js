@@ -40,6 +40,17 @@ function renderRow(row,album) {
 let activeAlbum = collection.albums[0];
 const originalUssrMethod = $('method-ussr').innerHTML;
 $('album-select').innerHTML = collection.albums.map(album=>`<option value="${esc(album.id)}">${esc(album.title)}</option>`).join('');
+$('grand-total').innerHTML = (()=>{
+  const byCurrency={}; let albumCount=0, photoCount=0, markCount=0;
+  for(const album of collection.albums){
+    const rows=album.pages.flatMap(page=>page.rows), currency=config(album).currency, total=sum(rows);
+    const bucket=byCurrency[currency]||(byCurrency[currency]=[0,0,0]);
+    bucket[0]+=total[0]; bucket[1]+=total[1]; bucket[2]+=stampCount(rows.filter(priced));
+    albumCount++; photoCount+=album.photoCount||album.pages.length; markCount+=stampCount(rows);
+  }
+  const totals=Object.entries(byCurrency).map(([currency,bucket])=>`<div class="stat"><span>Каталожный итог · ${esc(currency==='RUB'?'RusPhil':'Scott / StampWorld')}</span><strong>${money(bucket[0],bucket[1],currency)}</strong><small>оценено ${bucket[2]} марок</small></div>`).join('');
+  return `<div class="stat"><span>Всего альбомов</span><strong>${albumCount}</strong><small>${photoCount} фото · ${markCount} марок</small></div>${totals}`;
+})();
 $('accessory').innerHTML = (collection.accessories||[]).map(item=>`<div class="accessory-heading"><div><p class="eyebrow">СТОИМОСТЬ ХРАНЕНИЯ · ОТДЕЛЬНО ОТ МАРОК</p><h2>${esc(item.title)}</h2><span>${esc(item.description)}</span></div><div class="accessory-value"><strong>${money(item.min,item.max,item.currency)}</strong><small>Предварительный ориентир</small></div></div><p>${esc(item.note)}</p>${item.sources.map(s=>`<p class="accessory-source"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a> · ${esc(s.note)}</p>`).join('')}`).join('');
 function renderAlbum(album) {
   if (!album) return;
